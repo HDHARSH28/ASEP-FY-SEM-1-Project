@@ -1,0 +1,262 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+    line-height: 1.6;
+}
+a {
+    text-decoration: none; 
+    color: inherit;
+}
+
+/* Header */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Upper Navigation Bar */
+.upper-nav {
+    background: linear-gradient(90deg, #005f73, #0a9396, #94d2bd);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+.upper-nav .logo1 {
+    font-size: 1.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.upper-nav .mode button {
+    padding: 8px 15px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.upper-nav .mode button:hover {
+    background-color: #0a9396;
+}
+
+/* Main Navigation Bar */
+.main-nav {
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.main-nav .logo {
+    font-size: 2em;
+    color: #005f73;
+    font-weight: bold;
+}
+.main-nav .search-bar {
+    display: flex;
+    flex: 1;
+    margin: 10px;
+    max-width: 500px;
+}
+.main-nav .search-bar input {
+    flex: 1;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px 0 0 8px;
+}
+.main-nav .search-bar button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    background-color: #005f73;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 8px 8px 0;
+    transition: background-color 0.3s ease;
+}
+.main-nav .search-bar button:hover {
+    background-color: #003845;
+}
+.main-nav .nav-links {
+    display: flex;
+    gap: 15px;
+}
+.main-nav .nav-links a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.main-nav .nav-links a:hover {
+    background-color: #f0f0f0;
+    color: #005f73;
+}
+
+/* Parallax Section */
+.parallax {
+    background-image: url('https://becid.eu/wp-content/uploads/2024/03/5.jpg');
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.parallax h1 {
+    color: white;
+    font-size: 3em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* NGO Cards Container */
+.ngo-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.ngo-card {
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.ngo-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.ngo-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.ngo-card h3 {
+    margin: 15px 0 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.ngo-card p {
+    font-size: 0.95em;
+}
+
+.find-more {
+    text-align: center;
+    margin: 20px;
+}
+.find-more button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    background-color: #0077b6;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.find-more button:hover {
+    background-color: #005f99;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+#footer-section {
+    text-align: left;
+}
+#footer-section h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+#footer-section p,
+#footer-section ul,
+#footer-section li {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+#footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+#footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+#footer-section ul li a:hover {
+    color: #ff6347;
+}
+.footer-bottom {
+    font-size: 0.85em;
+    margin-top: 10px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .main-nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .main-nav .search-bar {
+        width: 100%;
+    }
+    .main-nav .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .parallax h1 {
+        font-size: 2em;
+    }
+}
+@media (max-width: 480px) {
+    .ngo-card img {
+        height: 120px;
+    }
+    .ngo-card h3 {
+        font-size: 1em;
+    }
+    .ngo-card p {
+        font-size: 0.85em;
+    }
+    .footer-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}
