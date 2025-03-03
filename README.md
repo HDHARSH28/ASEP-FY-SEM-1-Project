@@ -5,12 +5,20 @@ A web-based tool called NGO Finder makes it simple for users to locate and get i
 Why NGO Finder?
 <br>
 Due to changing economical and social conditions many people in the society are facing problems in their life. So to solve them we decided to make a medium through which they can avail facilities like education, shelter, food, etc…
+<br>
       1)	We looked for the NGO websites available currently. They are also good but we saw that they are more complicated for new users or the people who don’t have much knowledge about technology but they want help from NGO’s.
+<br>
       2)	The Government website provides the information but it is somewhat outdated like contact details and address.
+<br>
       3)	Our main motive is to provide users with a easy and helpful tool for getting connected to NGO’s.
 <br>
 <br>
 The NGO Finder Website improves NGO accessibility, making it easier for users to search, connect, and contribute. It bridges the gap between NGOs and the community, with future enhancements like AI recommendations and a mobile app.
+<br>
+<br>
+Website Link :
+<br>
+https://hdharsh28.github.io/ASEP-FY-SEM-1-Project/
 <br>
 <br>
 Thank You
