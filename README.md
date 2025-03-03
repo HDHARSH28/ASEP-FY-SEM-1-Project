@@ -6,11 +6,11 @@ Why NGO Finder?
 <br>
 Due to changing economical and social conditions many people in the society are facing problems in their life. So to solve them we decided to make a medium through which they can avail facilities like education, shelter, food, etc…
 <br>
-      1)	We looked for the NGO websites available currently. They are also good but we saw that they are more complicated for new users or the people who don’t have much knowledge about technology but they want help from NGO’s.
-<br>
-      2)	The Government website provides the information but it is somewhat outdated like contact details and address.
-<br>
-      3)	Our main motive is to provide users with a easy and helpful tool for getting connected to NGO’s.
+<ol>
+      <li>We looked for the NGO websites available currently. They are also good but we saw that they are more complicated for new users or the people who don’t have much knowledge about technology but they want help from NGO’s.</li>
+      <li>The Government website provides the information but it is somewhat outdated like contact details and address.</li>
+      <li>Our main motive is to provide users with a easy and helpful tool for getting connected to NGO’s.</li>
+</ol>
 <br>
 <br>
 An NGO Finder
